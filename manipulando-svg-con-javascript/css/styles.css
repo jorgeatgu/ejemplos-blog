@@ -508,4 +508,10 @@ th {
 .contenedor-dcha svg {
   background-color: #FFBFAB;
 }
+
+.texto-valores {
+	font-size: 1.25rem;
+
+	color: #001F3F;
+}
 /*# sourceMappingURL=styles.css.map */

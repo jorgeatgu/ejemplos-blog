@@ -28,7 +28,11 @@ var logo = document.getElementById("logo");
 var sol = document.getElementById("sol");
 
 var logoDimensiones = logo.getBoundingClientRect();
+// var alturaLogo = height.logoDimensiones;
 var solDimensiones = sol.getBBox();
+
+// document.getElementById("logoAltura").innerHTML = "Altura" + alturaLogo;
+// document.getElementById("logoAnchura").innerHTML = "Anchura" + logoDimensiones;
 
 console.log(solDimensiones);
 console.log(logoDimensiones);
