@@ -14,13 +14,19 @@
      filter: url("#sepiatone");
 }
 
-.contenedor-imagenes {
+.contenedor {
 	font-size: 0;
 	margin-top: 50px;
-	.contenedor-imagenes-izda,
-	.contenedor-imagenes-dcha {
+	.contenedor-izda,
+	.contenedor-dcha {
 		width: 50%;
 		display: inline-block;
+	}
+}
+
+.contenedor {
+	.contenedor-izda,
+	.contenedor-dcha {
 		img {
 			max-width: 80%;
 			margin: 0 auto;
@@ -46,5 +52,24 @@
 			color: $btn-navy;
 			border: 1px solid $btn-navy;
 		}
+	}
+}
+
+.contenedor {
+	svg {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.contenedor-izda {
+	svg {
+		background-color: #ddd;
+	}
+}
+
+.contenedor-dcha {
+	svg {
+		background-color: #FFBFAB;
 	}
 }

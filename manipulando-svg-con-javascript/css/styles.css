@@ -451,25 +451,25 @@ th {
              filter: url("#sepiatone");
 }
 
-.contenedor-imagenes {
+.contenedor {
 	font-size: 0;
 
 	margin-top: 50px;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda,
-	.contenedor-imagenes .contenedor-imagenes-dcha {
+.contenedor .contenedor-izda,
+	.contenedor .contenedor-dcha {
   display: inline-block;
   width: 50%;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda img, .contenedor-imagenes .contenedor-imagenes-dcha img {
+.contenedor .contenedor-izda img, .contenedor .contenedor-dcha img {
   display: block;
   max-width: 80%;
   margin: 0 auto;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda .btn, .contenedor-imagenes .contenedor-imagenes-dcha .btn {
+.contenedor .contenedor-izda .btn, .contenedor .contenedor-dcha .btn {
   font-size: 1rem;
   display: block;
   box-sizing: border-box;
@@ -480,19 +480,32 @@ th {
   background-color: transparent;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda .btn-attr,
-		.contenedor-imagenes .contenedor-imagenes-izda .btn-remove-attr,
-		.contenedor-imagenes .contenedor-imagenes-dcha .btn-attr,
-		.contenedor-imagenes .contenedor-imagenes-dcha .btn-remove-attr {
+.contenedor .contenedor-izda .btn-attr,
+		.contenedor .contenedor-izda .btn-remove-attr,
+		.contenedor .contenedor-dcha .btn-attr,
+		.contenedor .contenedor-dcha .btn-remove-attr {
   color: #85144B;
   border: 1px solid #85144B;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda .btn-add-class,
-		.contenedor-imagenes .contenedor-imagenes-izda .btn-remove-class,
-		.contenedor-imagenes .contenedor-imagenes-dcha .btn-add-class,
-		.contenedor-imagenes .contenedor-imagenes-dcha .btn-remove-class {
+.contenedor .contenedor-izda .btn-add-class,
+		.contenedor .contenedor-izda .btn-remove-class,
+		.contenedor .contenedor-dcha .btn-add-class,
+		.contenedor .contenedor-dcha .btn-remove-class {
   color: #001F3F;
   border: 1px solid #001F3F;
+}
+
+.contenedor svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.contenedor-izda svg {
+  background-color: #ddd;
+}
+
+.contenedor-dcha svg {
+  background-color: #FFBFAB;
 }
 /*# sourceMappingURL=styles.css.map */

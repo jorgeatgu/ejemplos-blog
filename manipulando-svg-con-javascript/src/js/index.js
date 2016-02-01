@@ -23,3 +23,12 @@ $(document).ready(function() {
 	});
 
 });
+
+var logo = document.getElementById("logo");
+var sol = document.getElementById("sol");
+
+var logoDimensiones = logo.getBoundingClientRect();
+var solDimensiones = sol.getBBox();
+
+console.log(solDimensiones);
+console.log(logoDimensiones);
