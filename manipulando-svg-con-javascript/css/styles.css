@@ -441,6 +441,16 @@ th {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+.saturate {
+    -webkit-filter: url("#saturate");
+            filter: url("#saturate");
+}
+
+.sepia {
+     -webkit-filter: url("#sepiatone");
+             filter: url("#sepiatone");
+}
+
 .contenedor-imagenes {
 	font-size: 0;
 
@@ -470,12 +480,18 @@ th {
   background-color: transparent;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda .btn-attr, .contenedor-imagenes .contenedor-imagenes-dcha .btn-attr {
+.contenedor-imagenes .contenedor-imagenes-izda .btn-attr,
+		.contenedor-imagenes .contenedor-imagenes-izda .btn-remove-attr,
+		.contenedor-imagenes .contenedor-imagenes-dcha .btn-attr,
+		.contenedor-imagenes .contenedor-imagenes-dcha .btn-remove-attr {
   color: #85144B;
   border: 1px solid #85144B;
 }
 
-.contenedor-imagenes .contenedor-imagenes-izda .btn-add-class, .contenedor-imagenes .contenedor-imagenes-dcha .btn-add-class {
+.contenedor-imagenes .contenedor-imagenes-izda .btn-add-class,
+		.contenedor-imagenes .contenedor-imagenes-izda .btn-remove-class,
+		.contenedor-imagenes .contenedor-imagenes-dcha .btn-add-class,
+		.contenedor-imagenes .contenedor-imagenes-dcha .btn-remove-class {
   color: #001F3F;
   border: 1px solid #001F3F;
 }

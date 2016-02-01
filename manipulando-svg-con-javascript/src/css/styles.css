@@ -6,6 +6,14 @@
 	font-family: 'Fira Sans', sans-serif;
 }
 
+.saturate {
+    filter: url("#saturate");
+}
+
+.sepia {
+     filter: url("#sepiatone");
+}
+
 .contenedor-imagenes {
 	font-size: 0;
 	margin-top: 50px;
@@ -28,11 +36,13 @@
 			text-align: center;
 			background-color: transparent;
 		}
-		.btn-attr {
+		.btn-attr,
+		.btn-remove-attr {
 			color: $btn-maroon;
 			border: 1px solid $btn-maroon;
 		}
-		.btn-add-class {
+		.btn-add-class,
+		.btn-remove-class {
 			color: $btn-navy;
 			border: 1px solid $btn-navy;
 		}
