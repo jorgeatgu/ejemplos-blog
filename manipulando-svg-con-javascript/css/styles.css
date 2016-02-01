@@ -440,4 +440,43 @@ th {
 .fira {
 	font-family: 'Fira Sans', sans-serif;
 }
+
+.contenedor-imagenes {
+	font-size: 0;
+
+	margin-top: 50px;
+}
+
+.contenedor-imagenes .contenedor-imagenes-izda,
+	.contenedor-imagenes .contenedor-imagenes-dcha {
+  display: inline-block;
+  width: 50%;
+}
+
+.contenedor-imagenes .contenedor-imagenes-izda img, .contenedor-imagenes .contenedor-imagenes-dcha img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.contenedor-imagenes .contenedor-imagenes-izda .btn, .contenedor-imagenes .contenedor-imagenes-dcha .btn {
+  font-size: 1rem;
+  display: block;
+  box-sizing: border-box;
+  margin: 1.25rem auto;
+  padding: 0.63rem 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+}
+
+.contenedor-imagenes .contenedor-imagenes-izda .btn-attr, .contenedor-imagenes .contenedor-imagenes-dcha .btn-attr {
+  color: #85144B;
+  border: 1px solid #85144B;
+}
+
+.contenedor-imagenes .contenedor-imagenes-izda .btn-add-class, .contenedor-imagenes .contenedor-imagenes-dcha .btn-add-class {
+  color: #001F3F;
+  border: 1px solid #001F3F;
+}
 /*# sourceMappingURL=styles.css.map */

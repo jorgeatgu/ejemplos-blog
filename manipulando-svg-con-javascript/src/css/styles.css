@@ -1,7 +1,40 @@
-@import _reset.css;
-@import _variables.css;
+@import _reset;
+@import _variables;
 
 
 .fira {
 	font-family: 'Fira Sans', sans-serif;
+}
+
+.contenedor-imagenes {
+	font-size: 0;
+	margin-top: 50px;
+	.contenedor-imagenes-izda,
+	.contenedor-imagenes-dcha {
+		width: 50%;
+		display: inline-block;
+		img {
+			max-width: 80%;
+			margin: 0 auto;
+			display: block;
+		}
+		.btn {
+			cursor: pointer;
+			box-sizing: border-box;
+			padding: 10px 20px;
+			font-size: 16px;
+			margin: 20px auto;
+			display: block;
+			text-align: center;
+			background-color: transparent;
+		}
+		.btn-attr {
+			color: $btn-maroon;
+			border: 1px solid $btn-maroon;
+		}
+		.btn-add-class {
+			color: $btn-navy;
+			border: 1px solid $btn-navy;
+		}
+	}
 }
