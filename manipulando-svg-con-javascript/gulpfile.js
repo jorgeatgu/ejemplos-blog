@@ -30,7 +30,7 @@ gulp.task('imagemin', function() {
 });
 
 var imgSrc = './src/img/**';
-var imgDest = '/img';
+var imgDest = '/img/**';
 
 gulp.task('images', function() {
     return gulp.src(imgSrc)
