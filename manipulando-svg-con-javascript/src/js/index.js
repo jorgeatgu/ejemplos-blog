@@ -24,15 +24,20 @@ $(document).ready(function() {
 
 });
 
-var logo = document.getElementById("logo");
+var sol = document.getElementById("logo");
 var sol = document.getElementById("sol");
 
 var logoDimensiones = logo.getBoundingClientRect();
-// var alturaLogo = height.logoDimensiones;
-var solDimensiones = sol.getBBox();
+var alturaLogo = logoDimensiones.height;
+var anchuraLogo = logoDimensiones.width;
+var topLogo = logoDimensiones.top;
+var rightLogo = logoDimensiones.right;
+var bottomLogo = logoDimensiones.bottom;
+var leftLogo = logoDimensiones.left;
 
-// document.getElementById("logoAltura").innerHTML = "Altura" + alturaLogo;
-// document.getElementById("logoAnchura").innerHTML = "Anchura" + logoDimensiones;
-
-console.log(solDimensiones);
-console.log(logoDimensiones);
+document.getElementById("logoAltura").innerHTML = "Altura: " + alturaLogo;
+document.getElementById("logoAnchura").innerHTML = "Anchura: " + anchuraLogo;
+document.getElementById("logoTop").innerHTML = "Top: " + topLogo;
+document.getElementById("logoRight").innerHTML = "Right: " + rightLogo;
+document.getElementById("logoBottom").innerHTML = "Bottom: " + bottomLogo;
+document.getElementById("logoLeft").innerHTML = "Left: " + leftLogo;

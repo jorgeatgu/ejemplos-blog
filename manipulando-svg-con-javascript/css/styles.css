@@ -512,6 +512,8 @@ th {
 .texto-valores {
 	font-size: 1.25rem;
 
+	display: block;
+
 	color: #001F3F;
 }
 /*# sourceMappingURL=styles.css.map */

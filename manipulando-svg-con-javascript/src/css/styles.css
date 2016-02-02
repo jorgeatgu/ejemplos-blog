@@ -77,4 +77,5 @@
 .texto-valores {
 	font-size: 20px;
 	color: $btn-navy;
+	display: block;
 }
