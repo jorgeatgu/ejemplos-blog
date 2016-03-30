@@ -1,2 +1,5 @@
-$btn-navy: #001F3F;
-$btn-maroon: #85144B;
+:root {
+	--btnNavy: #001F3F;
+	--btnMaroon: #85144B;
+	--fontSystem: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+}

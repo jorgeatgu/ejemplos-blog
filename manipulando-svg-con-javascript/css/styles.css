@@ -436,7 +436,6 @@ th {
   padding: 0;
 }
 
-
 .fira {
 	font-family: 'Fira Sans', sans-serif;
 }
@@ -461,6 +460,7 @@ th {
 	.contenedor .contenedor-dcha {
   display: inline-block;
   width: 50%;
+  vertical-align: middle;
 }
 
 .contenedor .contenedor-izda img, .contenedor .contenedor-dcha img {
@@ -484,7 +484,7 @@ th {
 		.contenedor .contenedor-izda .btn-remove-attr,
 		.contenedor .contenedor-dcha .btn-attr,
 		.contenedor .contenedor-dcha .btn-remove-attr {
-  color: #85144B;
+  color: $btn-maroon;
   border: 1px solid #85144B;
 }
 
@@ -492,7 +492,7 @@ th {
 		.contenedor .contenedor-izda .btn-remove-class,
 		.contenedor .contenedor-dcha .btn-add-class,
 		.contenedor .contenedor-dcha .btn-remove-class {
-  color: #001F3F;
+  color: $btn-navy;
   border: 1px solid #001F3F;
 }
 
@@ -510,10 +510,13 @@ th {
 }
 
 .texto-valores {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 1.25rem;
 
 	display: block;
 
+	margin-bottom: 5px;
+
 	color: #001F3F;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=css/styles.css.map */

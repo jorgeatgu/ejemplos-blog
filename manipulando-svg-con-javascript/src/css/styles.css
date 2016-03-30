@@ -1,5 +1,5 @@
-@import _reset;
-@import _variables;
+@import "_reset";
+@import "_variables";
 
 
 .fira {
@@ -21,6 +21,7 @@
 	.contenedor-dcha {
 		width: 50%;
 		display: inline-block;
+		vertical-align: middle;
 	}
 }
 
@@ -45,12 +46,12 @@
 		.btn-attr,
 		.btn-remove-attr {
 			color: $btn-maroon;
-			border: 1px solid $btn-maroon;
+			border: 1px solid var(--btnMaroon);
 		}
 		.btn-add-class,
 		.btn-remove-class {
 			color: $btn-navy;
-			border: 1px solid $btn-navy;
+			border: 1px solid var(--btnNavy);
 		}
 	}
 }
@@ -76,6 +77,8 @@
 
 .texto-valores {
 	font-size: 20px;
-	color: $btn-navy;
+	margin-bottom: 5px;
+	color: var(--btnNavy);
+	font-family: var(--fontSystem);
 	display: block;
 }
