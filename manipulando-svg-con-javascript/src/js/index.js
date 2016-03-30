@@ -24,8 +24,7 @@ $(document).ready(function() {
 
 });
 
-var sol = document.getElementById("logo");
-var sol = document.getElementById("sol");
+var logo = document.getElementById("logo");
 
 var logoDimensiones = logo.getBoundingClientRect();
 var alturaLogo = logoDimensiones.height;
