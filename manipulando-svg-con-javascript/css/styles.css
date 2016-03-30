@@ -519,4 +519,21 @@ th {
 
 	color: #001F3F;
 }
+
+.volver-blog {
+	font-size: 1.25rem;
+
+	display: block;
+
+	width: 20%;
+	margin: 1.25rem auto;
+	padding: 1.25rem 2.5rem;
+
+	text-align: center;
+	text-decoration: none;
+
+	color: #121;
+	border: 1px solid #121;
+	background-color: #fffffe;
+}
 /*# sourceMappingURL=css/styles.css.map */

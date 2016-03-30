@@ -82,3 +82,16 @@
 	font-family: var(--fontSystem);
 	display: block;
 }
+
+.volver-blog {
+	border: 1px solid #121;
+	text-decoration: none;
+	background-color: #fffffe;
+	font-size: 20px;
+	padding: 20px 40px;
+	text-align: center;
+	display: block;
+	width: 20%;
+	color: #121;
+	margin: 20px auto;
+}
